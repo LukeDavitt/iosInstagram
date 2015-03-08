@@ -84,8 +84,8 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
                 UIApplication.sharedApplication().endIgnoringInteractionEvents()
                 
                 if user != nil {
-                    // Yes, User Exists
-                    println("logged in")
+                    self.performSegueWithIdentifier("usersSegue", sender: nil)
+                    
                 } else {
                     // No, User Doesn't Exist
                     println("there was an error")
@@ -104,7 +104,6 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         let login = ["Use the form below to Login", "Sign Up","Not Registered?", "Log In"]
         let signUp = ["Use the form below to Sign Up", "Log In", "Already Registered?", "Sign Up"]
         var text = []
-        println("im kinda working")
         if signUpActive == true{
             
             signUpActive = false
@@ -117,7 +116,6 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
             
             text = signUp
         }
-        
         formLabel.text = text[0] as? String
         loginButton.setTitle(text[1] as? String, forState: .Normal)
         registeredLabel.text = text[2] as? String
@@ -127,7 +125,12 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     override func viewDidLoad(){
         super.viewDidLoad()
     }
-    
+    override func viewDidAppear(animated: Bool) {
+        if PFUser.currentUser() != nil{
+            println("performing")
+            self.performSegueWithIdentifier("usersSegue", sender: nil)
+        }
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

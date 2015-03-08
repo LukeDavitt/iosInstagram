@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E729B2B41AACC617009118BD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729B2B31AACC617009118BD /* TableViewController.swift */; };
 		E7EA702F1AA4989900F365C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA702E1AA4989900F365C2 /* AppDelegate.swift */; };
 		E7EA70311AA4989900F365C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA70301AA4989900F365C2 /* ViewController.swift */; };
 		E7EA70341AA4989900F365C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EA70321AA4989900F365C2 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E729B2B31AACC617009118BD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E7EA70291AA4989900F365C2 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EA702D1AA4989900F365C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7EA702E1AA4989900F365C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				E7EA702E1AA4989900F365C2 /* AppDelegate.swift */,
 				E7EA70301AA4989900F365C2 /* ViewController.swift */,
 				E7EA70321AA4989900F365C2 /* Main.storyboard */,
+				E729B2B31AACC617009118BD /* TableViewController.swift */,
 				E7EA70351AA4989900F365C2 /* Images.xcassets */,
 				E7EA70371AA4989900F365C2 /* LaunchScreen.xib */,
 				E7EA702C1AA4989900F365C2 /* Supporting Files */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7EA70311AA4989900F365C2 /* ViewController.swift in Sources */,
+				E729B2B41AACC617009118BD /* TableViewController.swift in Sources */,
 				E7EA702F1AA4989900F365C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +476,7 @@
 				E7EA704A1AA4989900F365C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7EA704B1AA4989900F365C2 /* Build configuration list for PBXNativeTarget "InstagramTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +485,7 @@
 				E7EA704D1AA4989900F365C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
