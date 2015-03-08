@@ -12,20 +12,24 @@
 	<dict>
 		<key>40E78425AC059B81EB493338FBB93235A91D2EA1</key>
 		<string>github.com:LukeDavitt/iOSTutorialApps.git</string>
+		<key>6F065278AF608AAD12B2052299044F29FADF42ED</key>
+		<string>github.com:LukeDavitt/iosInstagram.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Instagram/Instagram.xcodeproj</string>
+	<string>Instagram.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>40E78425AC059B81EB493338FBB93235A91D2EA1</key>
 		<string>../../..</string>
+		<key>6F065278AF608AAD12B2052299044F29FADF42ED</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:LukeDavitt/iOSTutorialApps.git</string>
+	<string>github.com:LukeDavitt/iosInstagram.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>40E78425AC059B81EB493338FBB93235A91D2EA1</string>
+	<string>6F065278AF608AAD12B2052299044F29FADF42ED</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>40E78425AC059B81EB493338FBB93235A91D2EA1</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iosApps</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6F065278AF608AAD12B2052299044F29FADF42ED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Instagram</string>
 		</dict>
 	</array>
 </dict>
